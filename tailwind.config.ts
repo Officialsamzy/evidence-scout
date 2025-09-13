@@ -31,6 +31,14 @@ export default {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
@@ -46,6 +54,19 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        // Forensics specific colors
+        terminal: {
+          green: "hsl(var(--terminal-green))",
+        },
+        evidence: {
+          amber: "hsl(var(--evidence-amber))",
+        },
+        alert: {
+          red: "hsl(var(--alert-red))",
+        },
+        cyber: {
+          blue: "hsl(var(--cyber-blue))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
